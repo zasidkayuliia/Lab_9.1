@@ -1,0 +1,30 @@
+﻿  UnitTest.cpp
+C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,22): error C2653: funcTay: не является именем класса или пространства имен
+  (компиляция исходного файла "/UnitTest.cpp")
+  
+C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,31): error C3861: A: идентификатор не найден
+  (компиляция исходного файла "/UnitTest.cpp")
+  
+C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13): error C2665: "Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual": ни одна перегруженная функция не может преобразовать все типы аргументов
+  (компиляция исходного файла "/UnitTest.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(191,15):
+      может быть "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)"
+          C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+          "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)": невозможно преобразовать аргумент 2 из "double" в "const wchar_t *"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(172,15):
+      или       "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)"
+          C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+          "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)": невозможно преобразовать аргумент 2 из "double" в "const char *"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36):
+      или       "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)"
+          C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+          "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)": в шаблон параметр "T" неоднозначен
+              C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+              может быть "double"
+              C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+              или       "unknown-type"
+          C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': не удалось вывести аргумент шаблон для 'const T &' из 'double'
+      C:\Users\Dara\source\repos\Lab_9.1\UnitTest\UnitTest.cpp(23,13):
+      при попытке сопоставить список аргументов "(unknown-type, double)"
+  
